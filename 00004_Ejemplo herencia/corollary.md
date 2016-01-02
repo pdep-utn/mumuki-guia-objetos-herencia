@@ -1,0 +1,4 @@
+En la definición de la clase Maestro, se puede observar que el método poder no está definido como se resuelve. Esto tiene sentido en este caso porque en nuestro dominio nunca vamos a tener un Maestro a secas, siempre va a ser un Maestro especializado que va a saber cómo se calcula su poder.
+A este concepto se lo llama clase abstracta, y es básicamente una clase que no va a ser instanciada, sino que sirve para que otras clases hereden de ella. 
+
+Habrás notado que para el método **`poder`** en la MaestroAgua se uso **override** esto es porque estaba definido en la clase padre, por lo tanto se tiene que sobreescribir. Más adelante lo vas a a ver más en detalle.

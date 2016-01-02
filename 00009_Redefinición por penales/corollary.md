@@ -1,0 +1,1 @@
+Como no nos interesa comportamiento del método **`esPeligroso`**  de las clases padres pisamos el método sin utilizar super().

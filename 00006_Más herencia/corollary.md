@@ -1,0 +1,1 @@
+Se nota que agregar un nuevo tipo de maestro empieza a ser trivial, simplemente lo hacemos heredar de maestro y le sobreescribimos el método **`poder`**. Ojo siempre y cuando este nuevo maestro tenga la naturaleza de ser un maestro y no de ser uno nuevo maestro de los maestros ya existentes.

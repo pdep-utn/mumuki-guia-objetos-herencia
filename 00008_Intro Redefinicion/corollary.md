@@ -1,0 +1,3 @@
+Notamos que  hay que usar <a href="http://uqbar-wiki.org/index.php?title=Super" target="_blank">super</a> porque estamos mandando el mismo mensaje, a la misma instancia en el mismo método, si no nos interesaría usar el comportamiento de las superClases simplemente podríamos sobreescribirlo y ya. 
+
+Sin **`super()`** entraríamos en un loop que es algo que definitivamente no queremos. Esto nos permite buscar el <a href="http://uqbar-wiki.org/index.php?title=Method_lookup" target="_blank">Method lookup</a> y así buscar el método de mi(this) para arriba, evitando el loop. Leer al respecto para evitar los malos usos del Super

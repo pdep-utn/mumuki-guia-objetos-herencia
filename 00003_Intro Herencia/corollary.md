@@ -1,0 +1,1 @@
+Cuando un objeto recibe un mensaje, mediante <a href="http://uqbar-wiki.org/index.php?title=Method_lookup" target="_blank">Method lookup</a> buscará el comportamiento requerido en la clase de la cual es instancia y, en caso de no tener un método para el mismo, en sus superclases.
