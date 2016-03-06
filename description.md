@@ -9,3 +9,5 @@ Sin embargo, cuando tenemos diferentes objetos que tienen una parte de comportam
 ##Dominio
 
 La nación del fuego ha vuelto a invadir el mundo de avatar y para mantener todos los maestros a raya, necesitamos que crees un sistema para poder medir el poder de los diferentes maestros y así conquistar el planeta.
+
+https://es.wikipedia.org/wiki/Avatar:_la_leyenda_de_Aang
