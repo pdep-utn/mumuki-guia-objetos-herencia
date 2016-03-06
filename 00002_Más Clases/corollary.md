@@ -1,1 +1,1 @@
-Empezamos a notar que para clases similares se esta repitiendo comportamiento, la forma de  saber si **`esGroso`** es igual para ambos y ante la posibilidad de agregar otro maestro más deberíamos volver a repetir el código.
+Empezamos a notar que para clases distintas se esta repitiendo comportamiento, ya la forma de  saber si **`esGroso`** es igual para cualquier maestro, y ante la posibilidad de agregar otro tipo de maestro más, deberíamos volver a repetir el código.
