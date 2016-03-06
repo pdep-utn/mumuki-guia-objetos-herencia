@@ -1,5 +1,7 @@
-object katara inherits MaestroAgua(50){}
-object soka inherits MaestroAgua(6){}
+//object katara inherits MaestroAgua(50){}
+object katara extends MaestroAgua(50){}
+//object soka inherits MaestroAgua(6){}
+object soka extends MaestroAgua(6){}
 
 test "el poder de un maestro agua depende de su habilidad"{
 	assert.equals(5000, katara.poder())
