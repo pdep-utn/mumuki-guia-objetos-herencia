@@ -1,1 +1,1 @@
-Queremos saber si un maestro agua **`esPeligroso`**, lo cuál sucede si su poder es mayor a 100.
+Queremos saber si un maestro agua **`esPeligroso`**, lo cuál sucede si su poder es mayor a 100. Agregar a MaestroAgua lo necesario para cumplir este nuevo requerimiento.
