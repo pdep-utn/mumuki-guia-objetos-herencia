@@ -2,12 +2,12 @@
 
 #Introducción
 
-Ya sabes que cuando varios objetos tienen el mismo comportamiento y atributos, podes crear una clase donde delegar dicho comportamiento y definir esos atributos y así evitar la repetición de lógica.
+Ya sabés que cuando varios objetos tienen el mismo comportamiento y atributos, podes crear una clase donde definir dicho comportamiento y atributos y así evitar la repetición de lógica entre los distintos objetos.
 
-Sin embargo, cuando tenemos diferentes objetos que tienen una parte de comportamiento común pero otra quedifiere entre ellos, las clases nos quedan cortas.
+Sin embargo, cuando tenemos diferentes clases que tienen una parte de comportamiento común pero otra que difiere entre ellos, las herramientas nos quedan cortas.
 
 ##Dominio
 
-La nación del fuego ha vuelto a invadir el mundo de avatar y para mantener todos los maestros a raya, necesitamos que crees un sistema para poder medir el poder de los diferentes maestros y así conquistar el planeta.
+La nación del fuego ha vuelto a invadir el mundo de Avatar y para mantener todos los maestros a raya, necesitamos que crees un sistema para poder medir el poder de los diferentes maestros y así conquistar el planeta.
 
 https://es.wikipedia.org/wiki/Avatar:_la_leyenda_de_Aang
