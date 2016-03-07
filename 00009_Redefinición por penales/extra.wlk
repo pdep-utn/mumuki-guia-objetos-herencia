@@ -1,11 +1,11 @@
 class Maestro {
 	var habilidad = 0
-	method habilidad(){
+/*	method habilidad(){
 		return habilidad
 	}
 	method habilidad(unaHabilidad){
 		habilidad = unaHabilidad
-	}
+	}*/
 	
 	method esGroso(){
         return this.poder() > 1000 && habilidad > 5
@@ -13,8 +13,8 @@ class Maestro {
     
   method poder()
 }
-class MaestroAgua inherits Maestro {
-	constructor(unaHabilidad){
+class MaestroAgua extends Maestro {
+	new(unaHabilidad){
 		habilidad = unaHabilidad
 	}
 	override method poder(){
