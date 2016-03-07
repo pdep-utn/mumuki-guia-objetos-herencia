@@ -1,1 +1,0 @@
-Gracias a que la clase maestro fuego hereda de la clase Maestro, no es necesario implementar el metodo **`esGroso`**, ya que por method lookup es encontrado en la superclase maestro. Entonces nos podemos concentrar en definir solo las cosas especificos del maestro fuego.
