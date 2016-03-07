@@ -9,7 +9,7 @@ test "el poder de un maestro agua depende de su habilidad"{
 }
 test "un maestro agua es groso dependiendo de su poder y habilidad" {
   var katara = new MaestroAgua(50)
-  var soka = new MaestroAgua(6)
+  var soka = new MaestroAgua(4)
 	assert.that(katara.esGroso())
 	assert.notThat(soka.esGroso())
 
