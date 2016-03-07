@@ -1,1 +1,3 @@
-Como no nos interesa comportamiento del método **`esPeligroso`**  de las clases padres pisamos el método sin utilizar super().
+Notamos que  hay que usar <a href="http://uqbar-wiki.org/index.php?title=Super" target="_blank">super</a> porque le estamos mandando el mensaje poder mientras le definimos el método poder. Si no nos interesara usar el comportamiento de la superclase, simplemente podríamos sobreescribirlo y ya como hicimos con esPeligroso, pero no es el caso. 
+
+Usando **`this.poder()`** en vez de **`super()`** entraríamos en un loop que es algo que definitivamente no queremos. Esto nos permite alterar el punto de partida del <a href="http://uqbar-wiki.org/index.php?title=Method_lookup" target="_blank">Method lookup</a> y así buscar el método a partir de MaestroAgua.
