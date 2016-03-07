@@ -1,18 +1,8 @@
-Bueno antes de seguir para no perderse, esto es lo que tenemos modelado hasta ahora:
-<img src="http://k30.kn3.net/2214266F0.png">
-
-Como vemos el diagrama de clase nos puede servir para tener una idea del sistema nosotros mismos o también para comunicar el diseño de sistema a otras personas.
-
-##Agrandando el sistema
-El señor del fuego muy orgulloso con tu forma de trabajar decise ampliar el sistema para contemplar a los maestros sangre.(Para los que no vieron la serie, son maestros agua que pueden controlar además la sangre de los individuos)
-
-* Un maestro sangre **`esGroso`** cuando su poder es mayor a 1000 y si su habilidad es mayor a 5. 
-
-* El **`poder`** de los maestros sangre es igual al poder de los maestros agua multiplicado 2
+El señor del fuego muy orgulloso con tu forma de trabajar decide ampliar el sistema para contemplar a los maestros sangre (que son maestros agua que pueden controlar además la sangre de los individuos). La primer diferencia que surge respecto a los maestros agua es que siempre son peligrosos, independientemente de su poder.
 
 ¿Qué harías ahora si queremos que modeles a los maestros sangre?
 
-Podrías hacer una clase que sea maestro sangre y herede de maestro, porque para saber si **`esGroso`** se calcula de la misma forma y además un maestro sangre tiene la naturaleza de ser un maestro. Pero además estaríamos repitiendo la forma de calcular su  **`poder`** y de definir sus atributos, sin mencionar que  un maestro sangre no solo tiene la naturaleza de ser un maestro, sino que también tiene la naturaleza de ser un maestro agua.
+Podrías hacer una clase que sea maestro sangre y herede de maestro, porque para saber si **`esGroso`** se calcula de la misma forma y además un maestro sangre tiene la naturaleza de ser un maestro. Pero además estaríamos repitiendo la forma de calcular su  **`poder`**, sin mencionar que  un maestro sangre no solo tiene la naturaleza de ser un maestro, sino que también tiene la naturaleza de ser un maestro agua.
 
 ### Algo de teoría
 La redefinición se produce cuando una clase vuelve a definir, o sea redefine, alguno de los métodos heredados de su superclase. El nuevo método sustituye al heredado para todos los objetos de la clase que lo ha redefinido, de manera que sus objetos tienen un comportamiento modificado respecto de los objetos de la superclase.
@@ -21,19 +11,6 @@ Así, la redefinición permite que al definir una nueva clase sus objetos no só
 
 La redifinición se puede usar para definir la misma operación que antes pero con alguna variante  o para definir la misma operación sin código en común con el heredado.
 
-###Volviendo al problema
+Anteriormente vimos que era necesario usar la palabra *override* para definir el método poder, ya que en la superclase Maestro existía una declaración (aunque no tuviera ninguna lógica). Esta palabra clave la usaremos siempre que querramos redefinir un método provisto por la superclase, es una forma de reforzar la idea de que efectivamente queremos cambiar el comportamiento heredado.
 
-Entonces en nuestro problema tenemos que usar comportamiento de la misma operación en la superClase, para esto usamos **super()**
-
-
-```sh
-
- class MaestroSangre extends MaestroAgua {
-	
-	override method poder() {
-		return super().poder() * 2 
-	}
- }
-```
-
-¡Pruebalo tú mismo!
+Poné en práctica lo aprendido definiendo la clase MaestroSangre de modo que se redefina el método *esPeligroso* retornando true.
