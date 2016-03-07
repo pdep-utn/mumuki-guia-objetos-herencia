@@ -3,7 +3,7 @@ class Maestro {
 	method habilidad(){
 		return habilidad
 	}
-	method habilidad(unaHabilidad){
+	method setHabilidad(unaHabilidad){
 		habilidad = unaHabilidad
 	}
 	
