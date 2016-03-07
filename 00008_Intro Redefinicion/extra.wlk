@@ -13,8 +13,8 @@ class Maestro {
     
     method poder()
 }
-class MaestroAgua inherits Maestro {
-	constructor(unaHabilidad){
+class MaestroAgua extends Maestro {
+	new(unaHabilidad){
 		habilidad = unaHabilidad
 	}
 	override method poder(){
