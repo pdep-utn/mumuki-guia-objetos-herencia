@@ -1,1 +1,0 @@
-Y después de tantos maestros te preguntaras como podes hacer al avatar, que es él que tiene la papa después de todo. Para esto podes investigar sobre mixins o cursar Técnicas avanzadas de progamación en la UTN-FRBA.

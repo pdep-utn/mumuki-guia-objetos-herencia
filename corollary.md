@@ -2,10 +2,10 @@
 
 Aprendiste los siguientes conceptos relacionados a herencia:
 
-* superclase
-* concreta
-* abstracta
+* herencia
+* superclase (concreta o abstracta)
 * subclase
 * method lookup
+* métodos abstractos
 * redefiniciòn
 * super
