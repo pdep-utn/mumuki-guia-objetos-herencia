@@ -1,6 +1,8 @@
-Con los maestros fuego y agua implementados restan los maestros aire, ya que los de tierra no nos interesa modelarlo porque los tenemos capturados en un barco en los sin fines del océano.
+Con los maestros fuego y agua implementados resta incorporar a aang, el último maestro aire.
 
-Del maestro aire sabemos que:
-* Un maestro aire **`esGroso`** cuando su poder es mayor a 1000 y si su habilidad es mayor a 5. 
+De aang sabemos que además de comportarse igual que los otros maestros en términos de grositud, su poder se calcula como el poder de su mascota multiplicado por su habilidad (la cual inicialmente deberá tener valer 75).
 
-* El **`poder`** de los maestros aire se calcula como el poder de su mascota multiplicado por su ligereza. Cada maestro tiene su propia mascota la cuál conoce su poder.
+Las posibles mascotas de aang son appa (cuyo poder es 150) y momo (cuyo poder es 15).
+
+Definí a los objetos aang, appa y momo para cumplir con lo pedido de modo que se le pueda settear la mascota a aang mandándole por ejemplo:
+`aang.mascota(appa)`

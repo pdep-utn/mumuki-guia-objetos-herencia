@@ -1,0 +1,1 @@
+En Wollok podemos hacer que un WKO herede de una clase de la misma forma que veníamos haciendo con otras clases.
