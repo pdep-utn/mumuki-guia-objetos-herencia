@@ -1,1 +1,0 @@
-Cómo vemos no todos los mensajes van a tener que ir en la superClase. Van a ver mensajes que son propios de las subclases y otros que si van a hacer polimorficos a sus hermanas subclases.
