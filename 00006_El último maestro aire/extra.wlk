@@ -1,3 +1,4 @@
+//Cambiar cuando se pueda tener el constructor en la superclase y el objeto pueda inicializarse con esa info
 class Maestro {
 	var habilidad = 0
 	method habilidad(){
