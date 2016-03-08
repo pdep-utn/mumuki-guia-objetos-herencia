@@ -7,6 +7,14 @@ Wollok maneja la idea de herencia simple, eso significa que una clase tiene siem
 que:
 `class MaestroAgua extends Object {}` 
 
-Para empezar a mejorar la solución que ya tenemos, definí una clase Maestro con un atributo habilidad (la subclase no debería definirlo nuevamente) y hacé que la clase MaestroAgua herede de Maestro. Además definí sólo en Maestro el método *esGroso* que retorne true si la habilidad es mayor a 5. Si todo sale bien, al preguntarle a un maestro agua si es groso, va a entender el mensaje porque está definido en su superclase.
+Para empezar a mejorar la solución que ya tenemos:
 
->Nota: extends será deprecado a partir de la versión 1.3 de Wollok, cambiándolo por inherits
+* Definí una clase Maestro y hacé que la clase MaestroAgua herede de Maestro. 
+* Definí un atributo habilidad sólo en Maestro
+* Definí sólo en Maestro el método *esGroso* que retorne true si la habilidad es mayor a 5. 
+* En Maestro, definí el contructor para que una nueva instancia se inicialice con su habilidad como hiciste en el primer ejercicio.
+* En MaestroAgua hay que llamar explícitamente al constructor de la superclase, podés hacerlo con el siguiente código: `new(unaHabilidad) = super(unaHabilidad)`
+
+Si todo sale bien, al preguntarle a un maestro agua si es groso, va a entender el mensaje porque está definido en su superclase.
+
+> Nota: extends será deprecado a partir de la versión 1.3 de Wollok, cambiándolo por inherits.
