@@ -1,5 +1,5 @@
 class Maestro {
-	var habilidad = 0
+	var habilidad = 100
 	method habilidad(){
 		return habilidad
 	}
