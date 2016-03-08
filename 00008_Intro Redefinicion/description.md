@@ -1,4 +1,4 @@
-El señor del fuego muy orgulloso con tu forma de trabajar decide ampliar el sistema para contemplar a los maestros sangre (que son maestros agua que pueden controlar además la sangre de los individuos). La primer diferencia que surge respecto a los maestros agua es que ***siempre son peligrosos***, independientemente de su poder.
+El señor del fuego, muy orgulloso con tu forma de trabajar, decide ampliar el sistema para contemplar a los maestros sangre (que son maestros agua que pueden controlar además la sangre de los individuos). La primer diferencia que surge respecto a los maestros agua es que ***siempre son peligrosos***, independientemente de su poder.
 
 En principio podríamos hacer una clase que sea MaestroSangre y herede de Maestro, porque para saber si **`esGroso`** se calcula de la misma forma y además un maestro sangre tiene la naturaleza de ser un maestro. Pero mejor sería que herede de MaestroAgua, para poder reutilizar la forma de calcular su  **`poder`**, sin mencionar que  un maestro sangre no solo tiene la naturaleza de ser un maestro, sino que también tiene la naturaleza de ser un maestro agua.
 
