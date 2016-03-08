@@ -7,3 +7,12 @@ Bueno, llegó la hora de terminar de implementar las mejoras que queremos. Hacé
 * el poder de un maestro fuego es su nivel de rabia dividido la intesidad de locura
 
 A la hora de hacerlo, preguntate lo siguiente, ¿Los atributos rabia y locura, deberían definirse en Maestro al igual que la habilidad?
+
+Tené en cuenta que como Maestro define el constructor que espera solamente la habilidad, para que el maestro fuego pueda ser construido con su habilidad, rabia y locura debería definir su constructor de esta forma: 
+
+```	
+constructor(unaHabilidad, unaRabia, unaLocura) = super(unaHabilidad){
+		rabia = unaRabia
+		locura = unaLocura
+	}
+```
