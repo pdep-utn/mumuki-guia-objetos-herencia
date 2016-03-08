@@ -9,4 +9,4 @@ que:
 
 Para empezar a mejorar la solución que ya tenemos, definí una clase Maestro con un atributo habilidad (la subclase no debería definirlo nuevamente) y hacé que la clase MaestroAgua herede de Maestro. Además definí sólo en Maestro el método *esGroso* que retorne true si la habilidad es mayor a 5. Si todo sale bien, al preguntarle a un maestro agua si es groso, va a entender el mensaje porque está definido en su superclase.
 
-Nota: extends será deprecado a partir de la versión 1.3 de Wollok, cambiándolo por inherits
+>Nota: extends será deprecado a partir de la versión 1.3 de Wollok, cambiándolo por inherits
