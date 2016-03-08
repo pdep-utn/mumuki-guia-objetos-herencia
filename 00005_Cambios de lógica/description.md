@@ -5,13 +5,14 @@ Tener en cuenta que lo esperado para cada tipo de maestro es que calcule su pode
 Sin embargo, las clases abstractas lo que pueden hacer es definir métodos abstractos para indicar que todos aquellos que hereden de ella deban contar con una implementación para ese mensaje. Los métodos abstractos se definen como un método común, pero sin cuerpo. Luego, sus subclases pueden aportar su implementación como lo venían haciendo, pero agregando la palabra clave override. Por ejemplo:
 
 ```
-class Bla(){
+class Bla {
   method foo(bar)
 }
-class Ble(){
-  override method foo(bar){
+class Ble extends Bla {
+  override method foo(bar) {
     return bar
   }
+}
 ```
 
 En base a tu última solución, realizá los cambios necesarios para cumplir con lo pedido.
