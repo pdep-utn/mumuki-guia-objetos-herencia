@@ -1,11 +1,9 @@
 class Maestro {
-	var habilidad = 0
-/*	method habilidad(){
-		return habilidad
-	}
-	method habilidad(unaHabilidad){
+	var habilidad
+	
+	new(unaHabilidad){
 		habilidad = unaHabilidad
-	}*/
+	}
 	
 	method esGroso(){
         return this.poder() > 1000 && habilidad > 5
@@ -14,9 +12,8 @@ class Maestro {
     method poder()
 }
 class MaestroAgua extends Maestro {
-	new(unaHabilidad){
-		habilidad = unaHabilidad
-	}
+	new(unaHabilidad) = super(unaHabilidad)
+	
 	override method poder(){
 		return habilidad* 100
 	}
