@@ -1,5 +1,5 @@
 class Maestro {
-	var habilidad = 0
+	var habilidad
 
 	new(unaHabilidad){
 		habilidad = unaHabilidad
