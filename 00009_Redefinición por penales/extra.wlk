@@ -4,6 +4,9 @@ class Maestro {
 	constructor(unaHabilidad){
 		habilidad = unaHabilidad
 	}
+	method habilidad(){
+	  return habilidad
+	}
 	
 	method esGroso(){
         return this.poder() > 1000 && habilidad > 5
