@@ -1,7 +1,8 @@
 //Cambiar cuando se pueda tener el constructor en la superclase y el objeto pueda inicializarse con esa info
 class Maestro {
 	var habilidad
-	constructor(unaHabilidad){
+	
+	method setHabilidad(unaHabilidad){
 	  habilidad = unaHabilidad
 	}
 	method habilidad(){
