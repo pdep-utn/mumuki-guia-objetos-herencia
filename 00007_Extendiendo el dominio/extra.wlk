@@ -1,7 +1,7 @@
 class Maestro {
 	var habilidad
 
-	new(unaHabilidad){
+	constructor(unaHabilidad){
 		habilidad = unaHabilidad
 	}
 	
