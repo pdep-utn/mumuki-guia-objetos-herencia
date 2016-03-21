@@ -8,7 +8,7 @@ Sin embargo, las clases abstractas lo que pueden hacer es definir métodos abstr
 class Bla {
   method foo(bar)
 }
-class Ble extends Bla {
+class Ble inherits Bla {
   override method foo(bar) {
     return bar
   }
