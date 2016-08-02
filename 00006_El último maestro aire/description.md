@@ -7,4 +7,4 @@ Las posibles mascotas de aang son appa (cuyo poder es 150) y momo (cuyo poder es
 Definí a los objetos aang, appa y momo para cumplir con lo pedido de modo que se le pueda settear la mascota a aang mandándole por ejemplo:
 `aang.mascota(appa)`
 
-Nota: para consultar la habilidad en aang usá this.habilidad()
+Nota: para consultar la habilidad en aang usá self.habilidad()
