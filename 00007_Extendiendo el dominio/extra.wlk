@@ -6,7 +6,7 @@ class Maestro {
 	}
 	
 	method esGroso(){
-        return this.poder() > 1000 && habilidad > 5
+        return self.poder() > 1000 && habilidad > 5
     }
     
   method poder()
