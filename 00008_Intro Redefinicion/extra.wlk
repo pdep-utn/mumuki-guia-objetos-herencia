@@ -6,7 +6,7 @@ class Maestro {
 	}
 	
 	method esGroso(){
-        return this.poder() > 1000 && habilidad > 5
+        return self.poder() > 1000 && habilidad > 5
     }
     
     method poder()
@@ -18,6 +18,6 @@ class MaestroAgua inherits Maestro {
 		return habilidad* 100
 	}
 	method esPeligroso() {
-		return this.poder() > 100
+		return self.poder() > 100
 	}
 }
