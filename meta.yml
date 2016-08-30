@@ -3,7 +3,7 @@ name: Herencia
 locale: es
 type: learning
 beta: false
-teacher_info: 
+teacher_info: Gustavo Crespi
 language: wollok
 id_format: '%05d'
 order:
