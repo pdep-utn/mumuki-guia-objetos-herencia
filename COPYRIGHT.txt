@@ -1,4 +1,4 @@
-Copyright Gustavo Crespi and contributors
+Copyright Juan Martín Rios and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
