@@ -1,4 +1,4 @@
->*Las clases vivían tranquilas en su mundo, pero todo cambió cuando la repetición de código atacó.*
+>*Las clases vivían tranquilas en su mundo, pero todo cambió cuando la repetición de lógica atacó.*
 
 #Introducción
 
