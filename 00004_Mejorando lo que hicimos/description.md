@@ -1,18 +1,9 @@
-Retomando... para evitar repetir la lógica de *esGroso* en cada tipo de maestro podemos definirla sólo en la superclase Maestro y que cada tipo de maestro herede de ella, sólo definiendo aquellas cosas que sean particulares de su tipo. Además como mencionamos anteriormente el tema de la naturaleza, un MaestroAgua es un Maestro y lo mismo pasa con un MaestroFuego. Esto es algo que nos puede ayudar a saber si las relaciones de herencia planteadas son correctas.
+Retomando el problema original... queríamos evitar repetir lógica entre los distintos maestros. Teníamos las clases `MaestroAgua` y `MaestroFuego` que si bien tenían lógica distinta (en particular la forma de calcular su poder), también tenían lógica común (la forma de saber si son grosos).
 
-Bueno, llegó la hora de terminar de implementar las mejoras que queremos. Hacé que las clases MaestroAgua y MaestroFuego hereden de la clase Maestro incluyendo las implementaciones de *esGroso* y *poder* donde corresponda, recordando que:
+Bueno, llegó la hora de implementar las mejoras que queremos. Hacé que las clases `MaestroAgua` y `MaestroFuego` hereden de una clase nueva llamada `Maestro` incluyendo las implementaciones de `esGroso` y `poder` donde corresponda, recordando que:
 
 * cualquier maestro es groso cuando su habilidad es mayor a 5
 * el poder de un maestro agua es 100 veces su habilidad
 * el poder de un maestro fuego es su nivel de rabia dividido la intesidad de locura
 
-A la hora de hacerlo, preguntate lo siguiente, ¿Los atributos rabia y locura, deberían definirse en Maestro al igual que la habilidad?
-
-Tené en cuenta que como Maestro define el constructor que espera solamente la habilidad, para que el maestro fuego pueda ser construido con su habilidad, rabia y locura debería definir su constructor de esta forma: 
-
-```	
-constructor(unaHabilidad, unaRabia, unaLocura) = super(unaHabilidad){
-		rabia = unaRabia
-		locura = unaLocura
-	}
-```
+A la hora de hacerlo, preguntate lo siguiente, ¿Los atributos `rabia` y `locura` deberían definirse en `Maestro` o `MaestroFuego`? ¿Y el atributo `habilidad` dónde conviene declararo?
