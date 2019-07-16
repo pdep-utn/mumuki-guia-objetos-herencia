@@ -1,4 +1,4 @@
-Si te preguntás cuál podría ser una implementación razonable para el método `poder()` en la clase `Maestro`, es una gran pregunta!! Cuando no tenemos una implementación que podamos generalizar, podemos declarar **métodos abstractos** en las superclases.
+Si te preguntás cuál podría ser una implementación razonable para el método `poder()` en la clase `Maestro`, ¡¡es una gran pregunta!! Cuando no tenemos una implementación que podamos generalizar, podemos declarar **métodos abstractos** en las superclases.
 
 Los métodos abstractos se definen como un método común, pero sin cuerpo. Luego, sus subclases pueden aportar su implementación como lo venían haciendo, pero agregando la palabra clave **override** para explicitar que no es coincidencia que estén declarando un método cuyo nombre coincide con uno definido por su superclase.
 
