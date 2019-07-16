@@ -18,5 +18,5 @@ test "Un bisonte volador pierde peso cuando vuela" {
 
 test "Un bisonte normal no puede volar" {
   var bisonte = new Bisonte(peso = 10)
-  assert.throwException({bisonte.yipYip()})
+  assert.throwsException({bisonte.yipYip()})
 }
