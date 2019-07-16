@@ -6,4 +6,4 @@ En cambio el **`poder`** de los maestros fuego se calcula como su nivel de rabia
 
 > Definí la clase `MaestroFuego` con atributos llamados habilidad, rabia y locura, y los métodos esGroso y poder.
 
-Te dejamos en el editor la solución que hiciste para el ejercicio anterior, por si necesitás inspiración :stuck_out_tongue_winking_eye:
+Te dejamos en el editor la solución que hiciste para el ejercicio anterior, por si necesitás inspiración  :stuck_out_tongue_winking_eye:
