@@ -22,3 +22,8 @@ test "un maestro agua no es groso si su habilidad es menor o igual a 5" {
   var maestro = new MaestroAgua(habilidad = 3)
 	assert.notThat(maestro.esGroso())
 }
+
+test "otros maestros también son grosos si la habilidad es mayor a 5" {
+  var otroMaestro = new MaestroAire(habilidad = 10)
+  assert.that(otroMaestro.esGroso())
+}

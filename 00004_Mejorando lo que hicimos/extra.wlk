@@ -1,0 +1,3 @@
+class MaestroAire inherits Maestro {
+  
+}
