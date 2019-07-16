@@ -4,8 +4,8 @@ test "un maestro es groso si su habilidad es mayor a 5 y su poder es mayor a 100
 }
 
 test "un maestro no es groso si su habilidad no es mayor a 5 " {
-  var katara = new MaestroAgua(habilidad = 3)
-	assert.notThat(katara.esGroso())
+  var otroMaestro = new MaestroTierra(habilidad = 3)
+	assert.notThat(otroMaestro.esGroso())
 }
 
 test "un maestro no es groso si su poder no es mayor a 1000" {
