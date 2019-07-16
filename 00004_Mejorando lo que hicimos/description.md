@@ -1,4 +1,4 @@
-Retomando el problema original... queríamos evitar repetir lógica entre los distintos maestros. Teníamos las clases `MaestroAgua` y `MaestroFuego` que si bien tenían lógica distinta (en particular la forma de calcular su poder), también tenían lógica común (la forma de saber si son grosos).
+Retomando el problema original... queríamos evitar repetir lógica entre los distintos maestros. Teníamos las clases `MaestroAgua` y `MaestroFuego` que si bien tenían lógica distinta (la forma de calcular su poder), también tenían lógica común (la forma de saber si son grosos), y queríamos poder **generalizar** esa idea.
 
 Bueno, llegó la hora de implementar las mejoras que queremos. Hacé que las clases `MaestroAgua` y `MaestroFuego` hereden de una clase nueva llamada `Maestro` incluyendo las implementaciones de `esGroso` y `poder` donde corresponda, recordando que:
 
