@@ -15,3 +15,8 @@ test "Un bisonte volador pierde peso cuando vuela" {
   bisonte.yipYip()
 	assert.equals(14, bisonte.peso())
 }
+
+test "Un bisonte normal no puede volar" {
+  var bisonte = new Bisonte(peso = 10)
+  assert.throwException({bisonte.yipYip()})
+}
