@@ -18,5 +18,5 @@ test "aang no es groso si tiene una mascota mediocre" {
     method poder() = 1
   }
   aang.mascota(raton)
-  assert.notThat(aang.esGroso()
+  assert.notThat(aang.esGroso())
 }
