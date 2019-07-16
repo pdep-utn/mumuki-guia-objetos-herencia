@@ -1,1 +1,0 @@
-Te dejamos la solución que hiciste para el ejercicio anterior en la biblioteca, por si necesitás inspiración :stuck_out_tongue_winking_eye:
