@@ -1,5 +1,8 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Maestro
-  inspection: DeclaresClass
+  binding: MaestroAgua
+  inspection: Inherits:Maestro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MaestroFuego
+  inspection: Inherits:Maestro
