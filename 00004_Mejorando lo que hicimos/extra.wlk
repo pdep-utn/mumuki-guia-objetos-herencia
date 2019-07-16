@@ -1,3 +1,3 @@
-class MaestroAire inherits Maestro {
+class MaestroTierra inherits Maestro {
   
 }
