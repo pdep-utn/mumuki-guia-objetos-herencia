@@ -10,5 +10,5 @@ Recordá que podés probar tu programa en la consola instanciando la clase `Maes
 ム var katara = new MaestroAgua(habilidad = 20)
  =>
 ム katara.poder()
- => 200
+ => 2000
 ```
